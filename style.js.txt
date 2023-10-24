@@ -1,0 +1,20 @@
+document.addEventListener("DOMContentLoaded", function () {
+    var dropdown = document.getElementById("myDropdown");
+
+    // Function to toggle the dropdown
+    function toggleDropdown() {
+        dropdown.classList.toggle("show");
+    }
+
+    // Event listener for clicking the "Socials" link
+    document.querySelector(".dropdown a").addEventListener("click", toggleDropdown);
+
+    // Close the dropdown if the user clicks outside of it
+    window.addEventListener("click", function (event) {
+        if (!event.target.matches(".dropdown a")) {
+            if (dropdown.classList.contains("show")) {
+                dropdown.classList.remove("show");
+            }
+        }
+    });
+});

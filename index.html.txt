@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- For modern browsers -->
+    <link rel="icon" sizes="192x192" href="/frown.png">
+    
+    <!-- For iPhone with Retina display -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/frown.png">
+    
+    <!-- For iPad with Retina display -->
+    <link rel="apple-touch-icon" sizes="152x152" href="/frown.png">
+    
+    <!-- For Windows Metro -->
+    <meta name="msapplication-square70x70logo" content="smalltile.png">
+    <meta name="msapplication-square150x150logo" content="mediumtile.png">
+    <meta name="msapplication-wide310x150logo" content="widetile.png">
+    <meta name="msapplication-square310x310logo" content="largetile.png">
+
+    <title>AceByte</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+<body>
+    <header>
+        <img src="https://sitetester.neocities.org/logo.png" alt="AceByte Logo">
+        <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#coding-prices">Coding Prices</a>
+            <a href="#art-prices">Art Prices</a>
+            <a href="#gallery">Gallery</a>
+            <div class="dropdown">
+                <a href="#" id="myDropdown">Socials</a>
+                <div class="dropdown-content">
+                    <a target="_blank" href="https://linktr.ee/ace8yte">Linktr.ee</a>
+                    <a target="_blank" href="https://www.deviantart.com/Psych0Hunk">DeviantArt</a>
+                    <a target="_blank" href="https://toyhou.se/AceByte">Toyhou.se</a>
+                    <a target="_blank" href="https://ko-fi.com/ace_byte">Instagram</a>
+                    <a target="_blank" href="https://x.com/ace8yte">X (Twitter)</a>
+                    <a target="_blank" href="https://ace8yte.tumblr.com/">Tumblr</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+      <div id="about-me" class="container" style="display: flex;">
+        <div style="color: #fff; padding-left: 25%; padding-right: 25%; text-align: center;">
+            <h1>About Me</h1>
+            <p>I am a young creator with a lot of free time. I've been learning to code since I was 15 years old, primarily due to the pandemic. I've been self-taught through online courses, programming books, and by creating various simple codes on the website 'toyhou.se' where you can find my codes under the username AceByte_Codes.</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+        Powered by <a href="https://neocities.org" target="_blank">Neocities</a>
+    </footer>
+
+    <script src="/style.js"></script>
+</body>
+</html>

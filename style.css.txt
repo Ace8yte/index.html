@@ -1,0 +1,120 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+* {
+font-family:'Montserrat';
+}
+
+/* Header styles */
+header {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+/* Set top margin for the main content to prevent it from being obscured by the fixed header */
+main {
+    margin-top: 70px; /* Adjust the value to suit your header's height */
+}
+
+* {
+  overflow-x: hidden;
+  }
+
+/* Body styles */
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll !important; /* Enable vertical scrolling for the body */
+}
+
+/* Add styles for header links */
+header a {
+    color: #333; /* Link text color (dark grey) */
+    text-decoration: none; /* Remove underlines from links */
+    margin: 0 15px;
+}
+
+.container {
+  background: url(https://acebyte.neocities.org/wallpaper.jpg);
+  background-position: center top;
+  background-size: cover;
+  height: 500px;
+  align-items: center;
+}
+
+/* Add styles for dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Add styles for dropdown content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    min-width: 160px;
+    z-index: 1;
+}
+
+/* Add styles for dropdown hover effect */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Add styles for dropdown links */
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Add styles for the logo */
+header img {
+    max-height: 50px;
+    margin-right: 20px;
+}
+
+/* Center text within the main content */
+.center-text {
+    text-align: center;
+    color: #fff; /* Text color (white) */
+}
+
+.center-text h1 {
+    font-size: 36px; /* Adjust the size as needed */
+}
+
+.center-text p {
+    font-size: 18px; /* Adjust the size as needed */
+}
+
+/* Add styles for the footer */
+footer {
+    background-color: #f5f5f5;
+    color: #333; /* Text color (dark grey) */
+    padding: 10px; /* Add padding for spacing */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Add styles for the footer link */
+footer a {
+    color: #333; /* Link text color (dark grey) */
+    text-decoration: none; /* Remove underlines from links */
+}
